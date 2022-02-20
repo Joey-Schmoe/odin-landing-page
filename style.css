@@ -111,7 +111,6 @@ ul {
 
 .text-section {
     flex-direction: column;
-    padding: 32px;
 }
 
 .text-section p {
@@ -130,8 +129,21 @@ ul {
 .window {
     display: flex;
     flex-direction: row;
-    padding: 12px;
     align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 6px;
+
+    width: 850px;
+    height: 125px;
+}
+
+.window-text {
+    width: 75%;
+}
+
+.window-text h3, .window-text p {
+    margin: 0 auto;
 }
 
 .window button {
