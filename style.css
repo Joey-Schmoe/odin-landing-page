@@ -98,6 +98,19 @@ ul {
     margin-top: 0;
 }
 
+.panel-section button {
+    background-color: var(--bluebg);
+    color: var(--text-white);
+
+    width: 100px;
+    height: 35px;
+
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .img-placeholder {
     width: 250px;
     height: 250px;
@@ -146,15 +159,17 @@ ul {
 
 .text-section p {
     width: 65%;
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 100;
+    color: #1F2937;
 }
 
 .text-section h3 {
     align-self:flex-end;
     margin-right: 264px;
     margin-top: -24px;
+    font-size: 20px;
 }
 
 .window {
@@ -182,6 +197,14 @@ ul {
 
 .window button {
     height: 32px;
+    background-color: var(--bluebg);
+    color : var(--text-white);
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
 }
 
 #header-logo {
