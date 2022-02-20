@@ -1,5 +1,5 @@
 html {
-    
+    font-family: "roboto", "sans-serif";
 }
 
 body {
@@ -7,11 +7,9 @@ body {
     flex-direction: column;
 }
 
-div, header, footer {
+header, footer {
     border: 1px solid black;
 }
-
-
 
 header, footer {
     display: flex;
@@ -22,11 +20,6 @@ header {
     align-items: center;
     padding: 6px;
     height: 32px;
-}
-
-#header-logo {
-    width: 250px;
-    text-align: center;
 }
 
 footer {
@@ -52,5 +45,99 @@ ul {
 }
 
 .section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-section {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
     height: 250px;
+}
+
+.panel-section div {
+    flex: 1;
+}
+
+.img-placeholder {
+    width: 250px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.card-section {
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card-section h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 3px solid lightblue;
+    border-radius: 12px;
+
+    padding: 16px;
+}
+
+.card-img {
+    height: 100px;
+    width: 100px;
+}
+
+.card p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.text-section {
+    flex-direction: column;
+    padding: 32px;
+}
+
+.text-section p {
+    width: 65%;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.text-section h3 {
+    align-self:flex-end;
+    margin-right: 264px;
+    margin-top: -24px;
+}
+
+.window {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+}
+
+.window button {
+    height: 32px;
+}
+
+#header-logo {
+    width: 250px;
+    text-align: center;
 }
